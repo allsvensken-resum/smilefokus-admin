@@ -1,0 +1,37 @@
+.nav {
+  display:flex;
+  width: 100%;
+  height: 8vh;
+  flex-shrink: 0;
+  color: white;
+}
+
+.nav__logoblock {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  background-color: black;
+  align-items: center;
+  padding: 1rem;
+  flex-shrink: 0;
+}
+
+.nav__menu {
+  display: flex;
+  justify-content: flex-end;
+  background-color: orange;
+  align-items: center;
+  padding: 1rem;
+  width: 100%;
+}
+
+.nav__avatar {
+  display: flex;
+  justify-content: space-between;
+  flex-shrink: 0;
+  align-items: center;
+}
+
+.nav__avatar div {
+  margin-left: 1rem;
+}

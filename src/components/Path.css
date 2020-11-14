@@ -1,0 +1,47 @@
+.path {
+  display: flex;
+  justify-content: space-between;
+  height: 8vh;
+  padding: 1rem;
+  color: rgb(60, 60, 60);
+  align-items: center;
+}
+
+.path__content {
+  width: 350px;
+}
+
+.path__content ul {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.path__content ul li {
+  list-style: none;
+}
+
+.path__icon {
+  width: 90px;
+  align-items: center;
+}
+
+.path__icon ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.path__icon a {
+  background-color: orange;
+  color: white;
+  display: block;
+  width: 28px;
+  height: 28px;
+  line-height: 30px;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.path__icon ul li {
+  list-style: none;
+}
